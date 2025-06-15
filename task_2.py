@@ -28,5 +28,3 @@ print("Ваші лотерейні числа:", lottery_numbers)
 # 5 з 36 (параметри не відповідають обмеженням)
 lottery_numbers = get_numbers_ticket(0, 36, 5)
 print("Ваші лотерейні числа:", lottery_numbers)
-
-

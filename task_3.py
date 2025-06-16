@@ -11,9 +11,15 @@
 import re
 
 def normalize_phone(phone_number):
-    pass
+    correct_numbers = re.sub(r'[^\d+]', '', phone_number)
 
-
+    if len(correct_numbers) == 10:
+        return "+38" + correct_numbers
+    elif len(correct_numbers) == 12:
+        return "+" + correct_numbers
+    else:
+        return correct_numbers
+    
 raw_numbers = [
     "067\\t123 4567",
     "(095) 234-5678\\n",

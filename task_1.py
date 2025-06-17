@@ -19,9 +19,9 @@ day_in_past = get_days_from_today("2020-10-09")
 # Приклад. Дата в майбутньому 2025-10-09 - різниця -117 днів
 day_in_future = get_days_from_today("2025-10-09")
 # Приклад. Сьогоднішня дата - різниця 0 днів
-today_day = get_days_from_today("2025-06-14")
+today_day = get_days_from_today("2025-06-17")
 # Приклад. Неправильний формат дати
-wrong_format = get_days_from_today("2025/06/14")
+wrong_format = get_days_from_today("2025/06/17")
 
 print(f"Кількість днів складає: {day_in_past}")
 print(f"Кількість днів складає: {day_in_future}")
